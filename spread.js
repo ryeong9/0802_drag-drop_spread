@@ -65,3 +65,16 @@ const person = {
 };
 const { name: userName, age: userAge } = person;
 console.log(`이름: ${userName}, 나이: ${userAge}`);
+
+// Quiz.2 다음 객체를 스프레드 연산자를 사용하여 복사하고, model "전기차"로 수정한 새로운 객체 ndwCar생성하는 코드 작성
+const car = { brand: "현대", model: "아이오닉", year: 2023 };
+const newCar = { ...car, model: "전기차" };
+console.log(newCar);
+
+// Quiz.3 다음 두 배열을 스프레드 연산자를 사용하여 하나의 배열로 합친 후, 중복된 값을 제거한 배열을 출력하는 코드를 작성
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [4, 5, 6, 7, 8];
+const array3 = [...array1, ...array2];
+
+const newArr = [...new Set(array3)];
+console.log(newArr);
