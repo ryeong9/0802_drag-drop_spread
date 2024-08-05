@@ -58,7 +58,7 @@ const {
 } = user2;
 console.log(city);
 
-// Quiz. 객체 person을 만들고, name과 age를 구조 분해 할당하고 변수 userName과 userAge에 각각 저장한 후, 두 변수를 활용하여 console.log(`이름: ${userName}, 나이: ${userAge}`)출력하시오.
+// Quiz.1 객체 person을 만들고, name과 age를 구조 분해 할당하고 변수 userName과 userAge에 각각 저장한 후, 두 변수를 활용하여 console.log(`이름: ${userName}, 나이: ${userAge}`)출력하시오.
 const person = {
   name: "Kim",
   age: 25,
